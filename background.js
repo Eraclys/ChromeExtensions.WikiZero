@@ -1,6 +1,6 @@
 chrome.webRequest.onBeforeRequest.addListener(
     function(details) {
-         return {redirectUrl: details.url.replace('wikipedia', '0wikipedia')};
+         return {redirectUrl: details.url.replace('wikipedia', '00wikipedia')};
     },
     {
 		urls: [
